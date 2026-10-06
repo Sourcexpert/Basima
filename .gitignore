@@ -1,0 +1,17 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Secrets — never committed, never shipped in the deliverable zip
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Local tooling
+.DS_Store
+*.log
